@@ -1,0 +1,58 @@
+/* CSS general */
+.iframee {
+  width: 100px;
+  height: 50px;
+}
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+/* CSS pantallas de 320px o superior */
+@media (min-width: 320px) {
+
+.iframee  {
+    width: 400px;
+    height: 400px;
+  } 
+
+}
+
+/* CSS pantalla 768px o superior */
+@media (min-width: 768px) {
+
+ .iframee  {
+    width: 700px;
+    height: 350px;
+  } 
+
+}
+
+@font-face {
+  font-family: 'Arvo';
+  font-display: auto;
+  src: local('Arvo'), url(https://fonts.gstatic.com/s/arvo/v9/rC7kKhY-eUDY-ucISTIf5PesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
+}
+
+.backg
+{ 
+  background-attachment:fixed;
+    background-color: #645862;
+    background-image:  url("images/bg.webp");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    cursor: default;
+    padding: 180px 0 120px;
+    text-align: center;
+    width: 100%;
+    float: left;
+
+}
