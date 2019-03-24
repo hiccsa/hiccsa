@@ -54,5 +54,32 @@
     text-align: center;
     width: 100%;
     float: left;
-
 }
+
+
+.carousel .carousel-item {
+width:400px !important;}
+
+/*
+.carousel .carousel-item {
+width:300px !important;}
+
+.carousel .carousel-item>img {
+    width: 230%; //there you set the width
+    margin-left: -70%; //this is the centering of carousel (in original, it is a bit off to the right)
+}
+
+@media (min-width: 380px) and (max-width: 768px){
+.carousel .carousel-item {
+    width:300px !important;
+}
+}
+
+@media (min-width: 0px) and (max-width: 379px){
+.carousel .carousel-item {
+    width:300px !important;
+}
+}
+
+https://stackoverflow.com/questions/37762139/how-to-increase-the-size-of-carousel-in-materialize-css
+*/
